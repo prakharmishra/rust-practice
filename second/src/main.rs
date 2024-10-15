@@ -15,11 +15,12 @@ fn main() {
 
     println!("{val}");
 
-    let x: Option<Option<Option<i32>>> = Some(Some(Some(34)));
+    // let x: Option<Option<Option<i32>>> = Some(Some(Some(34)));
+    let x: Option<Option<Option<i32>>> = Some(None);
     if let Some(Some(y)) = x {
         println!("Valid value: {:?}", y);
-    } else {
-        println!("x is not there");
+    } else if let Some(z) = x {
+        println!("Got z instead: {:?}", z);
     }
 
     // println!("Hello, world! {}", x);
