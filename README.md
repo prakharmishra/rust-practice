@@ -13,3 +13,11 @@ In this, I practiced a little on conditionals in rust. I also encountered a curi
 ## third
 
 In this, I practiced loops. I looped infinitely, looped till I find an input from the user, looped over a range and vector.
+
+## fourth
+
+In this, I practiced match as a statement, answering user's prompts
+
+## fifth
+
+In this, I created a few hashmaps, one of them was string to string, another was int to string slice.
